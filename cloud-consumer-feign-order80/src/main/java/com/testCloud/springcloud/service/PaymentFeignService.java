@@ -1,6 +1,7 @@
-package com.atguigu.springcloud.service;
-import com.atguigu.springcloud.entities.CommonResult;
-import com.atguigu.springcloud.entities.Payment;
+package com.testCloud.springcloud.service;
+
+import com.testCloud.springCloud.entities.CommonResult;
+import com.testCloud.springCloud.entities.Payment;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;

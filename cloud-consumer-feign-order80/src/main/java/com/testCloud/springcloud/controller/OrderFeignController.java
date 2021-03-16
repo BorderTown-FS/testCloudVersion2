@@ -1,7 +1,8 @@
-package com.atguigu.springcloud.controller;
-import com.atguigu.springcloud.entities.CommonResult;
-import com.atguigu.springcloud.entities.Payment;
-import com.atguigu.springcloud.service.PaymentFeignService;
+package com.testCloud.springcloud.controller;
+
+import com.testCloud.springcloud.service.PaymentFeignService;
+import com.testCloud.springCloud.entities.CommonResult;
+import com.testCloud.springCloud.entities.Payment;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
